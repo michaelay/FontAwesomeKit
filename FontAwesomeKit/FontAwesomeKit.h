@@ -4,14 +4,14 @@
 
 #import <Foundation/Foundation.h>
 
-static NSString *const FAKImageAttributeRect = @"FAKImageAttributeRect";
-static NSString *const FAKImageAttributeForegroundColor = @"FAKImageAttributeForegroundColor";
-static NSString *const FAKImageAttributeBackgroundColor = @"FAKImageAttributeBackgroundColor";
-static NSString *const FAKImageAttributeFont = @"FAKImageAttributeFont";
-static NSString *const FAKImageAttributeShadow = @"FAKImageAttributeShadow";
-static NSString *const FAKShadowAttributeOffset = @"FAKImageAttributeShadowOffset";
-static NSString *const FAKShadowAttributeBlur = @"FAKImageAttributeShadowBlur";
-static NSString *const FAKShadowAttributeColor = @"FAKImageAttributeShadowColor";
+FOUNDATION_EXPORT NSString *const FAKImageAttributeRect;
+FOUNDATION_EXPORT NSString *const FAKImageAttributeForegroundColor;
+FOUNDATION_EXPORT NSString *const FAKImageAttributeBackgroundColor;
+FOUNDATION_EXPORT NSString *const FAKImageAttributeFont;
+FOUNDATION_EXPORT NSString *const FAKImageAttributeShadow;
+FOUNDATION_EXPORT NSString *const FAKShadowAttributeOffset;
+FOUNDATION_EXPORT NSString *const FAKShadowAttributeBlur;
+FOUNDATION_EXPORT NSString *const FAKShadowAttributeColor;
 
 @interface FontAwesomeKit : NSObject
 

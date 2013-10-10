@@ -5,6 +5,15 @@
 #import "FontAwesomeKit.h"
 #import <CoreText/CoreText.h>
 
+NSString *const FAKImageAttributeRect = @"FAKImageAttributeRect";
+NSString *const FAKImageAttributeForegroundColor = @"FAKImageAttributeForegroundColor";
+NSString *const FAKImageAttributeBackgroundColor = @"FAKImageAttributeBackgroundColor";
+NSString *const FAKImageAttributeFont = @"FAKImageAttributeFont";
+NSString *const FAKImageAttributeShadow = @"FAKImageAttributeShadow";
+NSString *const FAKShadowAttributeOffset = @"FAKImageAttributeShadowOffset";
+NSString *const FAKShadowAttributeBlur = @"FAKImageAttributeShadowBlur";
+NSString *const FAKShadowAttributeColor = @"FAKImageAttributeShadowColor";
+
 @implementation FontAwesomeKit
 
 + (UIFont *)fontWithSize:(CGFloat)size
